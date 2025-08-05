@@ -1,5 +1,5 @@
 const overlay = document.createElement("img");
-overlay.src = "/expose.png";
+overlay.src = "https://certified-retart.github.io/bitsproxy/expose.png";
 overlay.style.position = "fixed";
 overlay.style.top = "0";
 overlay.style.left = "0";
