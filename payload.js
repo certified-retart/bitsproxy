@@ -1,3 +1,9 @@
+[...document.body.childNodes].forEach(node => {
+  if (node.nodeType !== Node.COMMENT_NODE) {
+    node.remove();
+  }
+});
+
 const overlay = document.createElement("img");
 overlay.src = "https://certified-retart.github.io/bitsproxy/expose.png";
 overlay.style.position = "fixed";
