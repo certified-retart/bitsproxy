@@ -1,1 +1,12 @@
-alert("BIGGIE HUB ON TOP");
+const overlay = document.createElement("img");
+overlay.src = "https://certified-retart.github.io/bitsproxy/expose.png";
+overlay.style.position = "fixed";
+overlay.style.top = 0;
+overlay.style.left = 0;
+overlay.style.width = "100vw";
+overlay.style.height = "100vh";
+overlay.style.zIndex = 999999;
+overlay.style.pointerEvents = "none";
+overlay.style.objectFit = "cover"; 
+overlay.style.mixBlendMode = "normal";
+document.body.appendChild(overlay);
